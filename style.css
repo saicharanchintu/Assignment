@@ -651,6 +651,7 @@ nav ul li a {
     z-index: -1;
 }
 
+/* customizable-part */
 .customizable {
     padding: 50px 20px;
 }
@@ -783,4 +784,134 @@ nav ul li a {
     color: #000000;
     width: 455px;
     overflow: hidden;
+}
+
+.testimonial-container{
+    display: flex;
+    /* max-width: 1000px; */
+}
+
+.ellipse-12 {
+    width: 220px;
+    height: 380px;
+    border: 1px solid black;
+    rotate: -45deg;
+    left: 170px;
+    top: 2460px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.ellipse-13 {
+    width: 220px;
+    height: 380px;
+    border: 1px solid black;
+    rotate: -45deg;
+    left: 190px;
+    top: 2430px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.ellipse-14 {
+    width: 220px;
+    height: 380px;
+    border: 1px solid black;
+    rotate: -45deg;
+    left: 210px;
+    top: 2400px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.testimonals-list{
+    width: 500px;
+}
+
+.testimonals-list h3{
+    font-family: myFont;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.testimonals-list p{
+    font-family: myFont;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+
+.profile-1{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    left: 195px;
+    top: 35px;
+}
+
+.profile-2{
+    width: 120px;
+    height: 120px;
+    /* overflow: hidden; */
+    position: relative;
+    left: -160px;
+    top: -170px;
+}
+
+.profile-3{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    top: -170px;
+    left: -60px;
+    
+}
+
+.profile-5{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    top: -80px;
+    left: 157px;
+}
+
+.profile-4{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    top: -90px;
+    left: 240px;
+}
+
+.profiles{
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.profiles img{
+    width: 20px;
+    height: 20px;
+}
+
+.profiles img:nth-child(1){
+    transform: scale(1.3);
+}
+
+.profiles img:not(:first-child) {
+    opacity: 0.8;
 }
